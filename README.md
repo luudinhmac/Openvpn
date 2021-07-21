@@ -42,4 +42,5 @@ Tải file trên về và cấp quyên thực thi cho nó
     ---> connect
     copy file <client>.ovpn ra máy tính client.
     sử dụng phần mềm openvpn connect import file vào để sử dụng
+    ![](/Image/1.PNG)
     
