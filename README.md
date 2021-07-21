@@ -29,7 +29,7 @@ chmod +x install-openvpn.sh
     
     ifconfig
     
-    ![](/Image/3.PNG)
+    ![](/3.PNG)
     
     #chú ý: ens18 là tên card mạng(thay đổi cho phù hợp)
     - Để thêm user cetificate thì chạy file Install-openvpn.sh 
