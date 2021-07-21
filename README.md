@@ -53,3 +53,8 @@ chmod +x install-openvpn.sh
     copy file <client>.ovpn ra máy tính client.
     sử dụng phần mềm openvpn connect import file vào để sử dụng
   ![](/connectclient.PNG)
+  
+  # Thêm user
+  Chạy file cài đặt
+  ./install-openvpn.sh
+   ![](/addclient.PNG)
