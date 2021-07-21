@@ -25,6 +25,12 @@ chmod +x install-openvpn.sh
     iptables-save > /etc/sysconfig/iptables
     systemctl restart network.service 
     
+    Kiểm tra
+    
+    ifconfig
+    
+    ![](/Image/3.PNG)
+    
     #chú ý: ens18 là tên card mạng(thay đổi cho phù hợp)
     - Để thêm user cetificate thì chạy file Install-openvpn.sh 
       
