@@ -20,9 +20,11 @@ Cai dat openvpn server
     systemctl restart network.service 
     
     - Để thêm user cetificate thì chạy file Install-openvpn.sh 
-    
-    
-    # Sửa config để login bằng user/password
+      
+    # Tạo userpass cho openvpn
+    useradd <username>
+    passwd <username>
+    # Sửa config để login bằng user/password    
     vi /etc/openvpn/server/server.conf
     thêm dòng 
     plugin /usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so login
