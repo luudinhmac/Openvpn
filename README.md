@@ -44,13 +44,12 @@ chmod +x install-openvpn.sh
 
     Khởi động lại vpn server 
     systemctl restart openvpn-server@server
+   ![](/fileclient.PNG)
     
-    Sửa file <client>.ovpn thêm vào dòng
+    Sửa các file <client>.ovpn thêm vào dòng
     auth-user-pass
-    
-    
+        
     ---> connect
     copy file <client>.ovpn ra máy tính client.
     sử dụng phần mềm openvpn connect import file vào để sử dụng
-   ![](/fileclient.PNG)
-    
+  ![](/connectclient.PNG)
