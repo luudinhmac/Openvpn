@@ -22,7 +22,7 @@ Cai dat openvpn server
     - Để thêm user cetificate thì chạy file Install-openvpn.sh 
     
     
-    ### Sửa config để login bằng user/password
+    === Sửa config để login bằng user/password
     vi /etc/openvpn/server/server.conf
     thêm dòng 
     plugin /usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so login
