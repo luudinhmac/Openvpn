@@ -1,9 +1,13 @@
 # Openvpn
 Mở port 
+![](/moport.PNG)
 Cai dat openvpn server
+
 Tải file trên về và cấp quyên thực thi cho nó
-    chmod +x install-openvpn.sh
-    ./install-openvpn.sh
+
+chmod +x install-openvpn.sh
+
+./install-openvpn.sh
     
     Chọn các tuỳ chọn, có thể để mặc định  (Phải có ip public)
     
