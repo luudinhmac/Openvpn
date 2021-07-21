@@ -1,5 +1,5 @@
 # Openvpn
-Mở port 
+Mở port trên router 
 ![](/moport.PNG)
 Cai dat openvpn server
 
