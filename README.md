@@ -56,5 +56,7 @@ chmod +x install-openvpn.sh
   
   # Thêm user
   Chạy file cài đặt
+  
   ./install-openvpn.sh
-   ![](/addclient.PNG)
+  
+  ![](/addclient.PNG)
