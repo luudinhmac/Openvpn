@@ -1,10 +1,11 @@
 # Openvpn
+Mở port 
 Cai dat openvpn server
 Tải file trên về và cấp quyên thực thi cho nó
     chmod +x install-openvpn.sh
     ./install-openvpn.sh
     
-    Chọn các tuỳ chọn, có thể để mặc định  
+    Chọn các tuỳ chọn, có thể để mặc định  (Phải có ip public)
     
     - Routing để lớp mạng vpn có thể liên lạc được với LAN bên trong
     yum upgrade -y
@@ -20,6 +21,7 @@ Tải file trên về và cấp quyên thực thi cho nó
     iptables-save > /etc/sysconfig/iptables
     systemctl restart network.service 
     
+    #chú ý: ens18 là tên card mạng(thay đổi cho phù hợp)
     - Để thêm user cetificate thì chạy file Install-openvpn.sh 
       
     # Tạo userpass cho openvpn
@@ -33,9 +35,11 @@ Tải file trên về và cấp quyên thực thi cho nó
     Khởi động lại vpn server 
     systemctl restart openvpn-server@server
     
-    Sửa file client thêm vào
+    Sửa file <client>.ovpn thêm vào dòng
     auth-user-pass
     
     
-    ---> login
+    ---> connect
+    copy file <client>.ovpn ra máy tính client.
+    sử dụng phần mềm openvpn connect import file vào để sử dụng
     
